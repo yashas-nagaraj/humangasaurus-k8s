@@ -15,7 +15,7 @@ spec:
       containers:
       - name: backend
         # ⚠️ Make sure this matches your DockerHub repo
-        image: yashasnagaraj/stranger-backend:latest
+        image: yashasnagaraj/humangasaurus-backend
         ports:
         - containerPort: 5000
         env:
